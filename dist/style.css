@@ -1,7 +1,49 @@
 body {
-    background-color: #3c3c3c;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Lato', sans-serif;
 }
 
 #mainContainer {
     background-color: white;
+    border-radius: 15px;
+}
+
+#mainContainer h1 {
+    font-weight: 800;
+    color: rgb(46, 46, 46);
+    font-size: 25pt;
+}
+
+#mainContainer h3 {
+    font-weight: 800;
+    color: rgb(114, 36, 67);
+    font-size: 18pt;
+}
+
+.headingHR {
+    margin: 2px 0 0 0;
+    border: none;
+    height: 5px;
+    color: rgb(114, 36, 67);
+    background-color: rgb(114, 36, 67);
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    font-size: 7.97pt;
+    color: rgb(114, 36, 67);
+    padding-right: 10px;
+}
+
+ul li {
+    padding-left: 55px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
 }
