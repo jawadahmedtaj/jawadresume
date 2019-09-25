@@ -20,6 +20,22 @@ body {
     font-size: 18pt;
 }
 
+#abilities {
+    /* list-style: disc inside !important; */
+    padding: 0;
+}
+
+#abilities li {
+    list-style-type: disc;
+    display: block;
+    padding: 0;
+}
+
+.achievements i {
+    /* margin: 5px 0 0 15px; */
+    font-size: 25pt !important;
+}
+
 .headingHR {
     margin: 2px 0 0 0;
     border: none;
@@ -53,9 +69,6 @@ body {
     color: rgb(101, 101, 101);
 }
 
-ul {
-    list-style: none;
-}
 
 i {
     font-size: 7.97pt;
